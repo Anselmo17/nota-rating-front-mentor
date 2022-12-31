@@ -44,7 +44,7 @@ body {
     font-size: 3em !important;
 }
 
-.star{
+.star {
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -65,7 +65,7 @@ body {
     text-align: justify;
 }
 
-.pontuacao{
+.pontuacao {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -80,6 +80,9 @@ body {
     border-radius: 50%;
 }
 
+.pontuacao span label {
+    margin-left: 10px;
+}
 
 
 .btn {

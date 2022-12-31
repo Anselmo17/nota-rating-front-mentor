@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Dancing+Script:wght@400;500;700&family=Kanit:ital,wght@0,200;1,100&family=Nunito:wght@300&family=Overpass:ital,wght@1,300&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,400;1,500&family=Ubuntu:wght@300;400&display=swap');
 
+
+
 html {
     font-family: 'Bitter', serif;
     font-family: 'Dancing Script', cursive;
@@ -13,6 +15,7 @@ html {
     height: 100vh;
 }
 
+
 body {
     background: hsl(216, 12%, 8%);
     align-items: center;
@@ -22,6 +25,9 @@ body {
     height: 100%;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
 
 .container {
     align-self: center;
@@ -31,23 +37,59 @@ body {
     padding: 20px;
     border-radius: 20px;
     color: hsl(0, 0%, 100%);
+    max-height: 500px;
 }
 
 .container h2 {
     font-size: 3em !important;
 }
 
-
-.container p {
-    font-size: 1.3em;
+.star {
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-
-.pontuacao span {
+.star span {
     background: hsl(216, 12%, 54%);
     padding: 20px;
     width: 30px;
     height: 30px;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+
+.container p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.pontuacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pontuacao div span {
+    background: hsl(216, 12%, 54%);
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.btn {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 50px;
+    width: 100%;
+    letter-spacing: 5px;
+    font-weight: bold;
 }

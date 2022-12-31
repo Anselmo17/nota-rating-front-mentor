@@ -71,17 +71,13 @@ body {
     align-items: center;
 }
 
-.pontuacao span {
+.pontuacao div span {
     background: hsl(216, 12%, 54%);
     padding: 20px;
     width: 30px;
     height: 30px;
     margin: 0 auto;
     border-radius: 50%;
-}
-
-.pontuacao span label {
-    margin-left: 10px;
 }
 
 

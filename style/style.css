@@ -110,4 +110,22 @@ body {
 
 .feedback{
     display: none;
+    text-align: center;
+}
+
+.container-step{
+    display: block;
+}
+
+.step-selected{
+    background: hsl(216deg 21% 24%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.txt-feedback{
+    color:hsl(216deg 13% 63%);
 }

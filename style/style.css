@@ -50,7 +50,7 @@ body {
 }
 
 .star span {
-    background: hsl(216, 12%, 54%);
+    background: hsl(216deg 21% 24%);
     padding: 20px;
     width: 30px;
     height: 30px;
@@ -62,7 +62,6 @@ body {
 .container p {
     font-size: 1.3em;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .pontuacao {
@@ -72,12 +71,21 @@ body {
 }
 
 .pontuacao div span {
-    background: hsl(216, 12%, 54%);
+    background: hsl(216deg 21% 24%);
     padding: 20px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+.pontuacao div span:hover {
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.pontuacao div span:hover .step{
+    background: hsl(352, 78%, 40%) !important;
 }
 
 
@@ -92,4 +100,32 @@ body {
     width: 100%;
     letter-spacing: 5px;
     font-weight: bold;
+}
+
+.btn:hover {
+    color: hsl(25, 97%, 53%);
+    background: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.feedback{
+    display: none;
+    text-align: center;
+}
+
+.container-step{
+    display: block;
+}
+
+.step-selected{
+    background: hsl(216deg 21% 24%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.txt-feedback{
+    color:hsl(216deg 13% 63%);
 }
